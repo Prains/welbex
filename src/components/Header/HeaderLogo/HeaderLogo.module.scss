@@ -1,0 +1,11 @@
+@use "../../../utils/mixins.scss" as m;
+
+.headerlogo {
+  @include m.flex(start, center);
+  @include m.width(165px);
+  gap: 10px;
+  flex-direction: column;
+  font-weight: 300;
+  font-size: 10px;
+  line-height: 12px;
+}

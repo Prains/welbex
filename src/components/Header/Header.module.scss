@@ -1,0 +1,7 @@
+@use '../../utils/mixins.scss' as m;
+
+
+.header {
+    @include m.flex(center, space-between);
+    margin-top: 62px;
+}
